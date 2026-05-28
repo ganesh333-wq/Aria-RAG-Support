@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment (UV)
+.venv/
+
+# Environment variables
+.env
+
+# ChromaDB persisted data
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# HuggingFace cache (can be large)
+# Uncomment to ignore:
+# .cache/
+
+# UV lock file (commit this if you want reproducible builds)
+# uv.lock

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase Aria Support</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="header-info">
+                <div class="avatar">A</div>
+                <div>
+                    <h2>Aria Support</h2>
+                    <p class="status">Online</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="debug-btn" title="Toggle Debug Panel">🔍</button>
+            </div>
+        </header>
+
+        <main class="chat-main" id="chat-window">
+            <div class="message system-msg">
+                <div class="msg-content">
+                    <p>Hi there! 👋 I'm <strong>Aria</strong>, your ShopEase support assistant. I can help you with returns, shipping, orders, payments, account issues, and more. How can I assist you today?</p>
+                </div>
+            </div>
+            <!-- Messages will appear here -->
+            <div id="typing-indicator" class="typing-indicator hidden">
+                Aria is typing<span>.</span><span>.</span><span>.</span>
+            </div>
+        </main>
+
+        <footer class="chat-footer">
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type your message..." autocomplete="off" required>
+                <button type="submit" id="send-btn">Send</button>
+            </form>
+        </footer>
+    </div>
+
+    <!-- Debug Panel -->
+    <div id="debug-panel" class="debug-panel hidden">
+        <h3>Pipeline Trace</h3>
+        <pre id="debug-content">Waiting for query...</pre>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

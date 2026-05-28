@@ -1,0 +1,1756 @@
+[
+  {
+    "id": "ret-001",
+    "category": "Returns & Refunds",
+    "intent": "RETURN_POLICY",
+    "priority": "medium",
+    "tags": [
+      "return",
+      "returns",
+      "refund",
+      "return policy",
+      "30 days",
+      "send back",
+      "shoes return",
+      "footwear return"
+    ],
+    "semantic_aliases": [
+      "send back",
+      "send my shoes back",
+      "send footwear back",
+      "give it back",
+      "return shoes",
+      "return footwear",
+      "return item",
+      "not happy with purchase",
+      "international return policy",
+      "return international order",
+      "overseas return policy"
+    ],
+    "questions": [
+      "What is your return policy?",
+      "Can I return my order?",
+      "How many days do I have to return?",
+      "Can I send the item back?",
+      "Can I send my shoes back?",
+      "Can I return my shoes?",
+      "Can I return footwear?",
+      "retun policcy",
+      "I don't like it, can I return it?",
+      "international return",
+      "return from overseas",
+      "return to different country",
+      "can I return from abroad",
+      "return outside USA",
+      "how to return international",
+      "retrn policy international",
+      "foreign country return",
+      "can I send back from outside",
+      "what about international orders",
+      "international orders return policy",
+      "can I return an international order"
+    ],
+    "answer": "You can return most items within **30 days** of delivery. Items must be unused, unwashed, with original tags and packaging intact. To start a return, go to **My Orders → Return Item** in your account. A prepaid return label will be emailed to you within 24 hours. International orders follow the same 30-day return window, but return shipping charges and any customs duties may be the customer's responsibility.",
+    "escalate": false
+  },
+  {
+    "id": "ret-002",
+    "category": "Returns & Refunds",
+    "intent": "REFUND_STATUS",
+    "priority": "medium",
+    "tags": [
+      "refund",
+      "refund status",
+      "when refund",
+      "refund pending",
+      "refund delayed",
+      "refund not received",
+      "refund not arrived"
+    ],
+    "semantic_aliases": [
+      "money back",
+      "refund issue",
+      "refund still has not arrived",
+      "refund has not arrived",
+      "refund not credited",
+      "refund delayed",
+      "refund pending",
+      "haven't received refund",
+      "payment returned",
+      "where is my money",
+      "refund not came",
+      "where money",
+      "upset about refund",
+      "angry refund complaint",
+      "nobody helping with refund"
+    ],
+    "questions": [
+      "When will I get my refund?",
+      "How long does refund processing take?",
+      "Where is my refund?",
+      "Refund still pending?",
+      "My refund still has not arrived.",
+      "I have not received my refund.",
+      "My refund has not been credited.",
+      "My refund is delayed.",
+      "Why has my refund not arrived?",
+      "refund not came",
+      "where is my mony",
+      "I'm frustrated, my refund still hasn't arrived",
+      "It's been forever, where's my refund?",
+      "My refund is taking way too long",
+      "I'm upset about my missing refund",
+      "This refund delay is ridiculous",
+      "Why hasn't my refund been credited yet?",
+      "refund still not received",
+      "refund never came",
+      "where did my refund go",
+      "refund disappeared",
+      "refund stuck",
+      "delayed refund",
+      "frustrated about refund",
+      "angry about refund",
+      "terrible refund process",
+      "nobody is helping with my refund",
+      "nobody helping me with refund",
+      "worst support refund",
+      "refund not came",
+      "where money"
+    ],
+    "answer": "Refunds are processed within **3–5 business days** after your returned item is received and inspected. The amount is credited back to your original payment method. For bank transfers it may take an additional 2–3 business days to appear in your account.",
+    "escalate": false
+  },
+  {
+    "id": "ret-003",
+    "category": "Returns & Refunds",
+    "intent": "PARTIAL_REFUND",
+    "priority": "low",
+    "tags": [
+      "partial refund",
+      "half refund",
+      "discount refund"
+    ],
+    "semantic_aliases": [
+      "some money back",
+      "part of my money",
+      "prorated refund"
+    ],
+    "questions": [
+      "Can I get a partial refund?",
+      "Do you offer partial refunds?",
+      "I only want to return one part of a set",
+      "partal refund"
+    ],
+    "answer": "Yes, we offer partial refunds if you return only a portion of a multi-item order. The refund amount will be calculated based on the specific items returned. We cannot issue partial refunds for single items that are kept.",
+    "escalate": false
+  },
+  {
+    "id": "ret-004",
+    "category": "Returns & Refunds",
+    "intent": "NON_RETURNABLE_ITEMS",
+    "priority": "medium",
+    "tags": [
+      "non returnable",
+      "final sale",
+      "hygiene"
+    ],
+    "semantic_aliases": [
+      "cannot return",
+      "items excluded from return",
+      "what can't I return"
+    ],
+    "questions": [
+      "What items cannot be returned?",
+      "Are there non-returnable products?",
+      "Can I return underwear or swimwear?",
+      "What is final sale?",
+      "non returnble"
+    ],
+    "answer": "The following items **cannot be returned**: innerwear, swimwear, earrings (hygiene reasons), personalized or custom-made items, digital downloads, and items marked **Final Sale**. Perishable goods and hazardous materials are also non-returnable.",
+    "escalate": false
+  },
+  {
+    "id": "ret-005",
+    "category": "Returns & Refunds",
+    "intent": "EXCHANGE_PROCESS",
+    "priority": "medium",
+    "tags": [
+      "exchange",
+      "swap",
+      "replace",
+      "different size"
+    ],
+    "semantic_aliases": [
+      "trade in",
+      "get another size",
+      "switch item"
+    ],
+    "questions": [
+      "How do I exchange an item?",
+      "Can I swap my order for a different size?",
+      "How does the exchange process work?",
+      "I want a different color, can I exchange?",
+      "exchnage item"
+    ],
+    "answer": "To exchange an item, go to **My Orders → Exchange Item** within 30 days of delivery. Select your preferred size or color and submit the request. We will ship the replacement once your original item is received. Exchanges are free for the first request per order.",
+    "escalate": false
+  },
+  {
+    "id": "ret-006",
+    "category": "Returns & Refunds",
+    "intent": "GIFT_RETURN",
+    "priority": "low",
+    "tags": [
+      "gift",
+      "gift return",
+      "received gift"
+    ],
+    "semantic_aliases": [
+      "return a present",
+      "gift exchange"
+    ],
+    "questions": [
+      "I received this as a gift, can I return it?",
+      "How do I return a gift?",
+      "Can I exchange a gift?",
+      "gift retun"
+    ],
+    "answer": "Yes, gifts can be returned! We can issue the refund as **Store Credit** to your account so the gift giver won't be notified. Contact support with the order number (usually on the packing slip) to initiate a gift return.",
+    "escalate": false
+  },
+  {
+    "id": "ret-007",
+    "category": "Returns & Refunds",
+    "intent": "RETURN_LABEL",
+    "priority": "low",
+    "tags": [
+      "return label",
+      "shipping label",
+      "print label"
+    ],
+    "semantic_aliases": [
+      "postage label",
+      "return slip",
+      "mail back label"
+    ],
+    "questions": [
+      "Where is my return label?",
+      "How do I print the return label?",
+      "I lost my return label",
+      "retun lable missing"
+    ],
+    "answer": "You can reprint your return label at any time by going to **My Orders → Returns** and clicking 'Download Label'. The label was also emailed to you when you initiated the return.",
+    "escalate": false
+  },
+  {
+    "id": "ret-008",
+    "category": "Returns & Refunds",
+    "intent": "RETURN_COST",
+    "priority": "medium",
+    "tags": [
+      "return cost",
+      "pay for return",
+      "free returns"
+    ],
+    "semantic_aliases": [
+      "how much to return",
+      "return fee",
+      "is return free"
+    ],
+    "questions": [
+      "Are returns free?",
+      "Do I have to pay to return an item?",
+      "Is there a return shipping fee?",
+      "free retuns"
+    ],
+    "answer": "Standard returns within the country are **100% free**. A prepaid shipping label is provided. For international orders, the customer is responsible for return shipping costs unless the item arrived defective.",
+    "escalate": false
+  },
+  {
+    "id": "ret-009",
+    "category": "Returns & Refunds",
+    "intent": "NO_BOX",
+    "priority": "low",
+    "tags": [
+      "no box",
+      "original packaging",
+      "missing tags"
+    ],
+    "semantic_aliases": [
+      "threw away box",
+      "lost the tags",
+      "don't have packaging"
+    ],
+    "questions": [
+      "Can I return an item without the original box?",
+      "I threw away the tags, can I still return it?",
+      "Return without packaging?",
+      "no original box"
+    ],
+    "answer": "Items should ideally be returned in their original packaging. However, if you've lost the shipping box, you can use any secure cardboard box. Please note that **product tags must still be attached** to apparel, and shoeboxes must be intact for footwear.",
+    "escalate": false
+  },
+  {
+    "id": "ret-010",
+    "category": "Returns & Refunds",
+    "intent": "REFUND_TO_DIFFERENT_CARD",
+    "priority": "low",
+    "tags": [
+      "different card",
+      "closed account",
+      "expired card"
+    ],
+    "semantic_aliases": [
+      "refund to new card",
+      "bank account closed refund"
+    ],
+    "questions": [
+      "Can you refund to a different card?",
+      "My bank account is closed, how do I get my refund?",
+      "My credit card expired, where does the refund go?"
+    ],
+    "answer": "Refunds must be processed back to the **original payment method**. If your card has expired or the account is closed, your bank will automatically reroute the funds to your new card or checking account. We cannot manually issue it to a different card for security reasons.",
+    "escalate": false
+  },
+  {
+    "id": "ship-001",
+    "category": "Shipping",
+    "intent": "TRACK_ORDER",
+    "priority": "high",
+    "tags": [
+      "track",
+      "tracking",
+      "delivery status",
+      "order location"
+    ],
+    "semantic_aliases": [
+      "where is my order",
+      "track package",
+      "find my delivery",
+      "trak pakage",
+      "track shipment",
+      "package status"
+    ],
+    "questions": [
+      "How do I track my order?",
+      "Where is my package?",
+      "trak my pakage",
+      "Order tracking status?",
+      "I want to know where my order is",
+      "Where's my package",
+      "Still no package",
+      "Why hasn't my order arrived",
+      "Track my shipment",
+      "Check delivery status",
+      "Give me tracking info",
+      "package delivery status",
+      "shipment tracker",
+      "trak shipment",
+      "pakage status",
+      "order status",
+      "when will it arrive",
+      "has my package shipped",
+      "trak pakage"
+    ],
+    "answer": "You can track your order in two ways:\n- **App/Website**: Go to **My Orders → Track Package**\n- **Email/SMS**: Use the tracking link sent to you after dispatch.",
+    "escalate": false
+  },
+  {
+    "id": "ship-002",
+    "category": "Shipping",
+    "intent": "DELIVERY_TIMEFRAME",
+    "priority": "medium",
+    "tags": [
+      "delivery time",
+      "shipping time",
+      "estimated delivery"
+    ],
+    "semantic_aliases": [
+      "how long",
+      "when will it arrive",
+      "eta"
+    ],
+    "questions": [
+      "How long does delivery take?",
+      "When will my order arrive?",
+      "delivry time",
+      "How many days for shipping?"
+    ],
+    "answer": "Delivery times vary by location:\n- **Metro cities**: 2–4 business days\n- **Tier-2 cities**: 4–6 business days\n- **Remote areas**: 6–10 business days\n- **International**: 7–21 business days",
+    "escalate": false
+  },
+  {
+    "id": "ship-003",
+    "category": "Shipping",
+    "intent": "DELAYED_DELIVERY",
+    "priority": "high",
+    "tags": [
+      "delayed",
+      "late delivery",
+      "missing package"
+    ],
+    "semantic_aliases": [
+      "order not arrived",
+      "taking too long",
+      "where is it"
+    ],
+    "questions": [
+      "My order is delayed",
+      "My package hasn't arrived yet",
+      "delivry is late",
+      "Why is my order taking so long?",
+      "I am frustrated my package is late!",
+      "My order is late",
+      "Order delayed, I'm frustrated",
+      "Why is my delivery taking so long",
+      "This delay is ridiculous",
+      "I'm upset about the late delivery",
+      "Order still hasn't arrived",
+      "My delivery is delayed",
+      "When will I get my order",
+      "My order hasn't shipped yet",
+      "order stuck",
+      "delivery stuck",
+      "still waiting for delivery",
+      "order is late",
+      "package delayed"
+    ],
+    "answer": "We apologize for the delay! If tracking shows no update for 3+ business days, the package might be delayed in transit. Please contact support with your order ID so we can investigate with the courier. If deemed lost, we will reship or refund.",
+    "escalate": false
+  },
+  {
+    "id": "ship-004",
+    "category": "Shipping",
+    "intent": "SHIPPING_COST",
+    "priority": "low",
+    "tags": [
+      "shipping cost",
+      "delivery fee",
+      "free shipping"
+    ],
+    "semantic_aliases": [
+      "shipping price",
+      "is shipping free",
+      "how much for delivery"
+    ],
+    "questions": [
+      "How much does shipping cost?",
+      "Do you offer free shipping?",
+      "What is the free shipping threshold?",
+      "is shiping free"
+    ],
+    "answer": "ShopEase offers **free standard shipping** on all orders above ₹499 (domestic). For orders below ₹499, a flat shipping fee of ₹49 applies. Express delivery is available at ₹99.",
+    "escalate": false
+  },
+  {
+    "id": "ship-005",
+    "category": "Shipping",
+    "intent": "INTERNATIONAL_SHIPPING",
+    "priority": "low",
+    "tags": [
+      "international",
+      "worldwide",
+      "abroad"
+    ],
+    "semantic_aliases": [
+      "global shipping",
+      "ship to another country",
+      "overseas",
+      "international orders",
+      "outside the country delivery",
+      "worldwide delivery"
+    ],
+    "questions": [
+      "Do you ship internationally?",
+      "Can you ship abroad?",
+      "Which countries do you ship to?",
+      "interational shiping",
+      "Can you ship to my country?",
+      "International shipping cost",
+      "How long for international delivery",
+      "Do you deliver outside USA",
+      "Ship to abroad",
+      "Overseas shipping",
+      "international delivery",
+      "can you ship here",
+      "ship to europe",
+      "ship to asia",
+      "world wide shipping",
+      "what about international shipping",
+      "international order delivery"
+    ],
+    "answer": "Yes! ShopEase ships to **45+ countries** worldwide. International delivery typically takes 7–21 business days depending on the destination. Customs duties may apply and are the responsibility of the buyer.",
+    "escalate": false
+  },
+  {
+    "id": "ship-006",
+    "category": "Shipping",
+    "intent": "CHANGE_ADDRESS",
+    "priority": "medium",
+    "tags": [
+      "change address",
+      "wrong address",
+      "update address"
+    ],
+    "semantic_aliases": [
+      "edit delivery address",
+      "shipped to wrong place",
+      "change destination"
+    ],
+    "questions": [
+      "I put the wrong shipping address, how do I change it?",
+      "Can I update my delivery address?",
+      "wrong addres",
+      "Need to change where my order is going"
+    ],
+    "answer": "Order modifications, including address changes, are only possible **before the order is shipped**. Go to **My Orders → Edit Order** as soon as possible. If it's already dispatched, we cannot change the address.",
+    "escalate": false
+  },
+  {
+    "id": "ship-007",
+    "category": "Shipping",
+    "intent": "MISSING_ITEM",
+    "priority": "high",
+    "tags": [
+      "missing item",
+      "incomplete order",
+      "part of order missing"
+    ],
+    "semantic_aliases": [
+      "did not get everything",
+      "item left out",
+      "where is the rest of my order"
+    ],
+    "questions": [
+      "An item is missing from my package",
+      "I didn't receive my full order",
+      "mising item",
+      "Part of my order is missing!",
+      "Something is missing from my order",
+      "I didn't receive everything",
+      "Part of my order is missing",
+      "My order arrived incomplete",
+      "One item is missing",
+      "Where's the rest of my order",
+      "incomplete order",
+      "missing items",
+      "didnt get everything",
+      "order incomplete"
+    ],
+    "answer": "We're sorry a part of your order is missing! Sometimes items ship separately from different warehouses. Check your tracking link to see if there are multiple shipments. If not, go to **My Orders → Report an Issue → Missing Item** so we can resolve this.",
+    "escalate": false
+  },
+  {
+    "id": "ship-008",
+    "category": "Shipping",
+    "intent": "DELIVERED_BUT_NOT_RECEIVED",
+    "priority": "high",
+    "tags": [
+      "delivered not received",
+      "stolen package",
+      "can't find package"
+    ],
+    "semantic_aliases": [
+      "says delivered but it's not here",
+      "stolen from porch",
+      "package missing"
+    ],
+    "questions": [
+      "Tracking says delivered but I don't have it",
+      "My package was stolen",
+      "says delivred but not here",
+      "I can't find my package"
+    ],
+    "answer": "If tracking says delivered but you don't have it:\n1. Check with neighbors or the building manager\n2. Look around your porch/doors\n3. Wait 24 hours, as couriers sometimes scan early\nIf it's still missing, contact support to file a lost package claim.",
+    "escalate": false
+  },
+  {
+    "id": "ship-009",
+    "category": "Shipping",
+    "intent": "PO_BOX",
+    "priority": "low",
+    "tags": [
+      "po box",
+      "apo",
+      "fpo",
+      "military base"
+    ],
+    "semantic_aliases": [
+      "post office box",
+      "shipping to base"
+    ],
+    "questions": [
+      "Do you ship to PO Boxes?",
+      "Can I use an APO/FPO address?",
+      "po box shipping"
+    ],
+    "answer": "Yes, we ship to PO Boxes and APO/FPO addresses via standard postal services. Please note that express shipping is not available for these addresses, and delivery may take slightly longer.",
+    "escalate": false
+  },
+  {
+    "id": "ship-010",
+    "category": "Shipping",
+    "intent": "WEEKEND_DELIVERY",
+    "priority": "low",
+    "tags": [
+      "weekend",
+      "saturday delivery",
+      "sunday delivery"
+    ],
+    "semantic_aliases": [
+      "deliver on weekends",
+      "working days"
+    ],
+    "questions": [
+      "Do you deliver on weekends?",
+      "Will my package arrive on Sunday?",
+      "weekend delivry"
+    ],
+    "answer": "Delivery days depend on the courier. Most couriers deliver Monday through Saturday. Sunday deliveries are only available in select metro areas for specific express shipments.",
+    "escalate": false
+  },
+  {
+    "id": "ord-001",
+    "category": "Orders",
+    "intent": "CANCEL_ORDER",
+    "priority": "high",
+    "tags": [
+      "cancel",
+      "cancel order",
+      "stop order"
+    ],
+    "semantic_aliases": [
+      "cancel purchase",
+      "I want to cancel",
+      "abort order"
+    ],
+    "questions": [
+      "Can I cancel my order?",
+      "How do I cancel an order?",
+      "cancell order",
+      "Stop my order before it ships"
+    ],
+    "answer": "Orders can be cancelled **within 1 hour** of being placed. Go to **My Orders → Cancel Order**. After 1 hour, if the order is dispatched, you must wait for delivery and initiate a return.",
+    "escalate": false
+  },
+  {
+    "id": "ord-002",
+    "category": "Orders",
+    "intent": "WRONG_ITEM",
+    "priority": "high",
+    "tags": [
+      "wrong item",
+      "incorrect product"
+    ],
+    "semantic_aliases": [
+      "received wrong order",
+      "different product",
+      "wrong size delivered",
+      "wrong order recieved",
+      "incorrect order received"
+    ],
+    "questions": [
+      "I received the wrong item",
+      "Wrong product delivered",
+      "wrong item recieved",
+      "This is not what I ordered!",
+      "I got the wrong item",
+      "This is not what I ordered",
+      "You sent me the wrong thing",
+      "Wrong product arrived",
+      "I received the incorrect item",
+      "Not the right item",
+      "wrong order",
+      "wrong item received",
+      "got wrong thing",
+      "sent wrong item",
+      "incorrect item",
+      "different item than ordered",
+      "wrong order recieved",
+      "wrong order received"
+    ],
+    "answer": "We apologize for the mix-up! Please go to **My Orders → Report an Issue → Wrong Item Received**. We will arrange a free pickup and ship the correct item to you immediately.",
+    "escalate": false
+  },
+  {
+    "id": "ord-003",
+    "category": "Orders",
+    "intent": "ORDER_CONFIRMATION",
+    "priority": "medium",
+    "tags": [
+      "order confirmation",
+      "confirmation email",
+      "did order go through"
+    ],
+    "semantic_aliases": [
+      "no email",
+      "order not confirmed",
+      "is my order placed"
+    ],
+    "questions": [
+      "I haven't received an order confirmation email",
+      "Did my order go through?",
+      "no confirmation emal",
+      "Is my order confirmed?"
+    ],
+    "answer": "Order confirmations are emailed within 15 minutes. Check your spam folder. You can also verify your order by logging into **My Account → My Orders**. If payment was deducted but no order appears, contact support.",
+    "escalate": false
+  },
+  {
+    "id": "ord-004",
+    "category": "Orders",
+    "intent": "MODIFY_ORDER",
+    "priority": "medium",
+    "tags": [
+      "change order",
+      "edit order",
+      "modify order"
+    ],
+    "semantic_aliases": [
+      "update order",
+      "add item to order",
+      "remove item"
+    ],
+    "questions": [
+      "Can I edit my order?",
+      "How do I modify my order?",
+      "modfy order",
+      "I want to add something to my order"
+    ],
+    "answer": "Once placed, we cannot add or remove items from an order. You can cancel the entire order within 1 hour and place a new one, or place a second separate order for the additional items.",
+    "escalate": false
+  },
+  {
+    "id": "ord-005",
+    "category": "Orders",
+    "intent": "ORDER_HISTORY",
+    "priority": "low",
+    "tags": [
+      "order history",
+      "past orders",
+      "view orders"
+    ],
+    "semantic_aliases": [
+      "previous purchases",
+      "my orders",
+      "purchase history"
+    ],
+    "questions": [
+      "How do I see my order history?",
+      "Where can I view past orders?",
+      "order hystory",
+      "Where are my old orders?"
+    ],
+    "answer": "You can view all your past and present orders by going to **My Account → My Orders**. Your complete purchase history is stored securely in your account.",
+    "escalate": false
+  },
+  {
+    "id": "ord-006",
+    "category": "Orders",
+    "intent": "GIFT_RECEIPT",
+    "priority": "low",
+    "tags": [
+      "gift receipt",
+      "hide price",
+      "gift order"
+    ],
+    "semantic_aliases": [
+      "send as gift",
+      "no price tag"
+    ],
+    "questions": [
+      "Can I get a gift receipt?",
+      "How do I hide the price for a gift?",
+      "gift reciept"
+    ],
+    "answer": "Yes! At checkout, check the box that says 'This is a gift'. We will include a gift receipt without prices and hide the price on the packing slip.",
+    "escalate": false
+  },
+  {
+    "id": "ord-007",
+    "category": "Orders",
+    "intent": "GUEST_CHECKOUT",
+    "priority": "low",
+    "tags": [
+      "guest checkout",
+      "order without account",
+      "track guest order"
+    ],
+    "semantic_aliases": [
+      "no account order",
+      "checkout as guest"
+    ],
+    "questions": [
+      "Can I order without an account?",
+      "How do I track a guest order?",
+      "guest order"
+    ],
+    "answer": "Yes, you can checkout as a guest. To track a guest order, use the tracking link provided in your shipping confirmation email, or go to the 'Track Order' page and enter your order number and email address.",
+    "escalate": false
+  },
+  {
+    "id": "ord-008",
+    "category": "Orders",
+    "intent": "BULK_ORDER",
+    "priority": "low",
+    "tags": [
+      "bulk",
+      "wholesale",
+      "large order",
+      "b2b"
+    ],
+    "semantic_aliases": [
+      "order in bulk",
+      "corporate order",
+      "huge quantity"
+    ],
+    "questions": [
+      "Can I place a bulk order?",
+      "Do you offer wholesale pricing?",
+      "bulk ordering"
+    ],
+    "answer": "For bulk, corporate, or wholesale orders (quantities > 20 per item), please contact our B2B team at **wholesale@shopease.com** for special pricing and availability.",
+    "escalate": false
+  },
+  {
+    "id": "pay-001",
+    "category": "Payment",
+    "intent": "PAYMENT_METHODS",
+    "priority": "low",
+    "tags": [
+      "payment",
+      "credit card",
+      "paypal",
+      "upi"
+    ],
+    "semantic_aliases": [
+      "how to pay",
+      "accepted payments",
+      "payment options"
+    ],
+    "questions": [
+      "What payment methods do you accept?",
+      "Can I pay using PayPal?",
+      "paymant methods",
+      "Do you accept UPI?"
+    ],
+    "answer": "We accept Visa, Mastercard, American Express, PayPal, Apple Pay, Google Pay, UPI, Net Banking, and select Buy Now Pay Later options.",
+    "escalate": false
+  },
+  {
+    "id": "pay-002",
+    "category": "Payment",
+    "intent": "PAYMENT_FAILED",
+    "priority": "high",
+    "tags": [
+      "payment failed",
+      "card declined",
+      "transaction failed"
+    ],
+    "semantic_aliases": [
+      "cannot pay",
+      "payment error",
+      "money deducted but no order",
+      "payment failure",
+      "card payment issue",
+      "billing failed"
+    ],
+    "questions": [
+      "Why was my payment declined?",
+      "Payment failed",
+      "paymant error",
+      "Money was deducted but my order failed",
+      "My card was declined",
+      "Payment wouldn't go through",
+      "Why did my payment fail",
+      "Card rejected",
+      "Payment error",
+      "My payment failed",
+      "Transaction declined",
+      "Card not accepted",
+      "payment wont work",
+      "card declined error",
+      "payment issue",
+      "billing problem",
+      "payment failure",
+      "money deducted order failed"
+    ],
+    "answer": "Payments can fail due to incorrect card details, insufficient funds, or bank network issues. If money was deducted for a failed order, it will be automatically refunded by your bank within 5-7 business days.",
+    "escalate": false
+  },
+  {
+    "id": "pay-003",
+    "category": "Payment",
+    "intent": "EMI_OPTIONS",
+    "priority": "low",
+    "tags": [
+      "emi",
+      "installment",
+      "pay later"
+    ],
+    "semantic_aliases": [
+      "monthly payments",
+      "easy payments",
+      "no cost emi"
+    ],
+    "questions": [
+      "Do you offer EMI?",
+      "Can I pay in installments?",
+      "pay in emi",
+      "What are the EMI options?"
+    ],
+    "answer": "EMI is available on orders above ₹3,000. We offer No-Cost EMI on select credit cards (3, 6, 9 months) and standard EMI on all major cards. Options appear at checkout.",
+    "escalate": false
+  },
+  {
+    "id": "pay-004",
+    "category": "Payment",
+    "intent": "INVOICE_BILLING",
+    "priority": "low",
+    "tags": [
+      "invoice",
+      "bill",
+      "receipt",
+      "gst"
+    ],
+    "semantic_aliases": [
+      "tax invoice",
+      "billing",
+      "download bill"
+    ],
+    "questions": [
+      "How do I get an invoice?",
+      "Where is my bill?",
+      "invoce",
+      "Can I get a GST invoice?"
+    ],
+    "answer": "You can download your invoice anytime by going to **My Orders → Order Details → Download Invoice**. GST invoices are automatically generated.",
+    "escalate": false
+  },
+  {
+    "id": "pay-005",
+    "category": "Payment",
+    "intent": "MULTIPLE_CARDS",
+    "priority": "low",
+    "tags": [
+      "split payment",
+      "multiple cards",
+      "pay with two cards"
+    ],
+    "semantic_aliases": [
+      "use two cards",
+      "split the bill"
+    ],
+    "questions": [
+      "Can I split payment between two cards?",
+      "How to use multiple payment methods?",
+      "split paymant"
+    ],
+    "answer": "We currently do not support splitting a single order across multiple credit or debit cards. However, you can use a Gift Card or Wallet balance and pay the remaining amount with a credit card.",
+    "escalate": false
+  },
+  {
+    "id": "acc-001",
+    "category": "Account",
+    "intent": "PASSWORD_RESET",
+    "priority": "medium",
+    "tags": [
+      "forgot password",
+      "reset password",
+      "login issue"
+    ],
+    "semantic_aliases": [
+      "can't login",
+      "password recovery",
+      "account access"
+    ],
+    "questions": [
+      "I forgot my password",
+      "How do I reset my password?",
+      "forgt pasword",
+      "I'm locked out of my account"
+    ],
+    "answer": "To reset your password, go to the Login page and click **Forgot Password**. Enter your email to receive a reset link. If you don't see it, check your spam folder.",
+    "escalate": false
+  },
+  {
+    "id": "acc-002",
+    "category": "Account",
+    "intent": "DELETE_ACCOUNT",
+    "priority": "medium",
+    "tags": [
+      "delete account",
+      "close account",
+      "remove account"
+    ],
+    "semantic_aliases": [
+      "deactivate account",
+      "delete my data"
+    ],
+    "questions": [
+      "How do I delete my account?",
+      "I want to close my ShopEase account",
+      "delet account",
+      "Delete all my data permanently"
+    ],
+    "answer": "To delete your account, go to **My Account → Settings → Delete Account**. Note that this action is permanent and your data will be removed. Active orders must be completed first.",
+    "escalate": false
+  },
+  {
+    "id": "acc-003",
+    "category": "Account",
+    "intent": "UPDATE_CONTACT",
+    "priority": "medium",
+    "tags": [
+      "update email",
+      "change phone",
+      "update profile"
+    ],
+    "semantic_aliases": [
+      "change contact info",
+      "new email address"
+    ],
+    "questions": [
+      "How do I update my email address?",
+      "Can I change my phone number?",
+      "change email addres"
+    ],
+    "answer": "Go to **My Account → Profile → Edit Profile**. For email/phone changes, you will receive a verification OTP to confirm the change for security purposes.",
+    "escalate": false
+  },
+  {
+    "id": "promo-001",
+    "category": "Discounts",
+    "intent": "PROMO_CODE_ISSUE",
+    "priority": "medium",
+    "tags": [
+      "coupon",
+      "promo code",
+      "discount",
+      "voucher"
+    ],
+    "semantic_aliases": [
+      "code not working",
+      "invalid code",
+      "apply coupon"
+    ],
+    "questions": [
+      "Why is my coupon not working?",
+      "Promo code invalid",
+      "copon not working",
+      "How do I apply a voucher?"
+    ],
+    "answer": "Promo codes may fail if they are expired, single-use, don't meet minimum order value, or are applied to items already on sale. Codes are also case-sensitive.",
+    "escalate": false
+  },
+  {
+    "id": "promo-002",
+    "category": "Discounts",
+    "intent": "PRICE_MATCH",
+    "priority": "low",
+    "tags": [
+      "price match",
+      "cheaper elsewhere",
+      "price guarantee"
+    ],
+    "semantic_aliases": [
+      "found lower price",
+      "price drop"
+    ],
+    "questions": [
+      "Do you price match?",
+      "I found this cheaper somewhere else",
+      "price maching"
+    ],
+    "answer": "We currently do not offer price matching with competitors. However, if the price of an item you purchased drops on our site within 7 days of your order, contact us for a store credit of the difference.",
+    "escalate": false
+  },
+  {
+    "id": "esc-001",
+    "category": "Escalation",
+    "intent": "FRAUD_REPORT",
+    "priority": "critical",
+    "tags": [
+      "fraud",
+      "unauthorized payment",
+      "hacked account",
+      "suspicious activity"
+    ],
+    "semantic_aliases": [
+      "identity theft",
+      "account compromised",
+      "stolen card used"
+    ],
+    "questions": [
+      "I think my account was hacked",
+      "Unauthorized purchase on my account",
+      "acount hacked",
+      "Someone made a purchase without my permission"
+    ],
+    "answer": null,
+    "escalate": true,
+    "escalation_reason": "Potential fraud or account security breach detected."
+  },
+  {
+    "id": "esc-002",
+    "category": "Escalation",
+    "intent": "DAMAGED_PRODUCT",
+    "priority": "high",
+    "tags": [
+      "damaged",
+      "broken item",
+      "defective product",
+      "arrived broken"
+    ],
+    "semantic_aliases": [
+      "product damaged",
+      "item damaged in transit",
+      "shattered",
+      "damaged goods",
+      "broken item received",
+      "defective item arrived"
+    ],
+    "questions": [
+      "My item arrived damaged",
+      "I received a broken product",
+      "item brokan",
+      "Product was damaged during shipping!",
+      "damaged goods",
+      "broken item received",
+      "defective item arrived"
+    ],
+    "answer": null,
+    "escalate": true,
+    "escalation_reason": "Damaged or defective product received."
+  },
+  {
+    "id": "esc-003",
+    "category": "Escalation",
+    "intent": "HUMAN_AGENT_REQUEST",
+    "priority": "high",
+    "tags": [
+      "manager",
+      "human support",
+      "real person",
+      "complaint",
+      "speak to agent"
+    ],
+    "semantic_aliases": [
+      "human agent",
+      "live agent",
+      "talk to human",
+      "representative"
+    ],
+    "questions": [
+      "I want to speak to a manager",
+      "Transfer me to a human",
+      "Escalate this issue",
+      "let me talk to a real person",
+      "Nobody is helping me"
+    ],
+    "answer": null,
+    "escalate": true,
+    "escalation_reason": "Customer explicitly requested human assistance."
+  },
+  {
+    "id": "esc-004",
+    "category": "Escalation",
+    "intent": "LEGAL_THREAT",
+    "priority": "critical",
+    "tags": [
+      "legal",
+      "lawyer",
+      "sue",
+      "court",
+      "consumer forum",
+      "legal action"
+    ],
+    "semantic_aliases": [
+      "file complaint",
+      "consumer court",
+      "lawsuit"
+    ],
+    "questions": [
+      "I will take legal action",
+      "I'm going to sue you",
+      "I'll report you to consumer court",
+      "I'm filing a complaint against ShopEase"
+    ],
+    "answer": null,
+    "escalate": true,
+    "escalation_reason": "Customer has expressed legal threats."
+  },
+  {
+    "id": "esc-005",
+    "category": "Escalation",
+    "intent": "SEVERE_FRUSTRATION",
+    "priority": "high",
+    "tags": [
+      "terrible service",
+      "worst experience",
+      "completely frustrated",
+      "unacceptable"
+    ],
+    "semantic_aliases": [
+      "horrible support",
+      "scam",
+      "this is outrageous"
+    ],
+    "questions": [
+      "This is the worst service I have ever experienced",
+      "I am completely fed up with ShopEase",
+      "This is terrible service",
+      "Worst support ever",
+      "You are scammers",
+      "I will never shop here again"
+    ],
+    "answer": null,
+    "escalate": true,
+    "escalation_reason": "Customer is severely frustrated."
+  },
+  {
+    "id": "prod-001",
+    "category": "Products",
+    "intent": "SIZE_GUIDE",
+    "priority": "low",
+    "tags": [
+      "size",
+      "size chart",
+      "measurements",
+      "fit"
+    ],
+    "semantic_aliases": [
+      "which size",
+      "sizing help",
+      "how does it fit"
+    ],
+    "questions": [
+      "How do I choose the correct size?",
+      "Do you have a size chart?",
+      "What size should I order?",
+      "size gidue",
+      "How do I know which size fits me?"
+    ],
+    "answer": "Every product page has a detailed size guide — click the **Size Guide** link next to the size selector. Sizes vary by brand, so always check the measurements in centimeters/inches.",
+    "escalate": false
+  },
+  {
+    "id": "prod-002",
+    "category": "Products",
+    "intent": "PRODUCT_AVAILABILITY",
+    "priority": "low",
+    "tags": [
+      "out of stock",
+      "when available",
+      "restock"
+    ],
+    "semantic_aliases": [
+      "notify me",
+      "product availability",
+      "is it in stock"
+    ],
+    "questions": [
+      "When will this product be back in stock?",
+      "Is this item available?",
+      "out of stok",
+      "Can I be notified when the item is restocked?"
+    ],
+    "answer": "If a product shows Out of Stock, you can click **Notify Me** on the product page to receive an email when it's restocked. Restock timelines vary by supplier.",
+    "escalate": false
+  },
+  {
+    "id": "prod-003",
+    "category": "Products",
+    "intent": "PRE_ORDER",
+    "priority": "low",
+    "tags": [
+      "pre order",
+      "reserve",
+      "upcoming"
+    ],
+    "semantic_aliases": [
+      "book in advance",
+      "reserve item"
+    ],
+    "questions": [
+      "Can I pre-order an item?",
+      "How do pre-orders work?",
+      "preorder",
+      "Reserve an upcoming product"
+    ],
+    "answer": "Select items are available for pre-order. You will be charged immediately upon placing the pre-order, and the item will ship by the estimated shipping date shown on the product page.",
+    "escalate": false
+  },
+  {
+    "id": "prod-004",
+    "category": "Products",
+    "intent": "WARRANTY",
+    "priority": "medium",
+    "tags": [
+      "warranty",
+      "guarantee",
+      "repair"
+    ],
+    "semantic_aliases": [
+      "product guarantee",
+      "how long is warranty"
+    ],
+    "questions": [
+      "Do your products come with a warranty?",
+      "How long is the guarantee?",
+      "waranty",
+      "My product broke, is it under warranty?"
+    ],
+    "answer": "Electronics and appliances come with a standard 1-year manufacturer warranty. Clothing and accessories are covered by our 30-day return policy. For warranty claims, contact the manufacturer directly or reach out to us for assistance.",
+    "escalate": false
+  },
+  {
+    "id": "prod-005",
+    "category": "Products",
+    "intent": "EXPIRATION_DATE",
+    "priority": "medium",
+    "tags": [
+      "expiration",
+      "expire",
+      "expiry date",
+      "perishable"
+    ],
+    "semantic_aliases": [
+      "how long is it good for",
+      "best before date"
+    ],
+    "questions": [
+      "What is the expiration date on this item?",
+      "Will the food expire soon?",
+      "expiry date"
+    ],
+    "answer": "We guarantee that all perishable goods and cosmetics will have at least 6 months remaining before their expiration date when delivered to you.",
+    "escalate": false
+  },
+  {
+    "id": "prod-006",
+    "category": "Products",
+    "intent": "INGREDIENTS",
+    "priority": "low",
+    "tags": [
+      "ingredients",
+      "materials",
+      "what is it made of"
+    ],
+    "semantic_aliases": [
+      "fabric",
+      "composition",
+      "what's inside"
+    ],
+    "questions": [
+      "Where can I find the ingredients?",
+      "What material is this dress made of?",
+      "materils used"
+    ],
+    "answer": "Full material compositions and ingredient lists are available under the **Product Specifications** tab on every product page.",
+    "escalate": false
+  },
+  {
+    "id": "prod-007",
+    "category": "Products",
+    "intent": "ASSEMBLY",
+    "priority": "low",
+    "tags": [
+      "assembly",
+      "installation",
+      "setup"
+    ],
+    "semantic_aliases": [
+      "put it together",
+      "do I have to build it",
+      "installation service"
+    ],
+    "questions": [
+      "Does this come assembled?",
+      "Do you offer installation services?",
+      "asembly required"
+    ],
+    "answer": "Furniture and large appliances may require assembly. We offer free professional installation for large appliances in select metro areas. For furniture, an assembly guide is included in the box.",
+    "escalate": false
+  },
+  {
+    "id": "prod-008",
+    "category": "Products",
+    "intent": "VEGAN_CRUELTY_FREE",
+    "priority": "low",
+    "tags": [
+      "vegan",
+      "cruelty free",
+      "animal testing"
+    ],
+    "semantic_aliases": [
+      "no animal testing",
+      "is it vegan"
+    ],
+    "questions": [
+      "Are your beauty products cruelty-free?",
+      "Is this item vegan?",
+      "cuelty free"
+    ],
+    "answer": "Many of our brands are certified cruelty-free and vegan. Please check for the 'Cruelty-Free' or 'Vegan' badges on the product image or in the specifications section.",
+    "escalate": false
+  },
+  {
+    "id": "prod-009",
+    "category": "Products",
+    "intent": "CUSTOMIZATION",
+    "priority": "low",
+    "tags": [
+      "custom",
+      "personalize",
+      "engraving"
+    ],
+    "semantic_aliases": [
+      "make it custom",
+      "print my name"
+    ],
+    "questions": [
+      "Can I personalize this item?",
+      "Do you offer engraving?",
+      "customise product"
+    ],
+    "answer": "Items marked with the 'Customizable' badge can be personalized. You can add engraving or text during checkout. Note that customized items are Final Sale and cannot be returned.",
+    "escalate": false
+  },
+  {
+    "id": "prod-010",
+    "category": "Products",
+    "intent": "GIFT_CARDS",
+    "priority": "low",
+    "tags": [
+      "gift card",
+      "e-gift card",
+      "voucher"
+    ],
+    "semantic_aliases": [
+      "buy a gift card",
+      "send a voucher"
+    ],
+    "questions": [
+      "Do you sell gift cards?",
+      "How do I buy an e-gift card?",
+      "giftcard"
+    ],
+    "answer": "Yes! We offer E-Gift Cards ranging from ₹500 to ₹10,000. They are delivered instantly via email and have no expiration date. You can purchase them from the 'Gift Cards' section in the main menu.",
+    "escalate": false
+  },
+  {
+    "id": "sub-001",
+    "category": "Subscriptions",
+    "intent": "PRIME_MEMBERSHIP",
+    "priority": "medium",
+    "tags": [
+      "membership",
+      "premium",
+      "subscription",
+      "prime"
+    ],
+    "semantic_aliases": [
+      "shop ease plus",
+      "premium account"
+    ],
+    "questions": [
+      "What is ShopEase Plus?",
+      "How do I become a premium member?",
+      "membership benefits"
+    ],
+    "answer": "ShopEase Plus is our premium membership that offers free express shipping on all orders, early access to sales, and exclusive discounts for ₹999/year. You can subscribe from your account dashboard.",
+    "escalate": false
+  },
+  {
+    "id": "sub-002",
+    "category": "Subscriptions",
+    "intent": "CANCEL_SUBSCRIPTION",
+    "priority": "medium",
+    "tags": [
+      "cancel subscription",
+      "stop membership",
+      "unsubscribe"
+    ],
+    "semantic_aliases": [
+      "end premium",
+      "cancel prime"
+    ],
+    "questions": [
+      "How do I cancel my ShopEase Plus membership?",
+      "I want to stop my subscription",
+      "cancell membership"
+    ],
+    "answer": "To cancel your membership, go to **My Account → ShopEase Plus → Cancel Subscription**. Your benefits will remain active until the end of your current billing cycle.",
+    "escalate": false
+  },
+  {
+    "id": "sub-003",
+    "category": "Subscriptions",
+    "intent": "SUBSCRIBE_AND_SAVE",
+    "priority": "low",
+    "tags": [
+      "subscribe and save",
+      "recurring order",
+      "auto delivery"
+    ],
+    "semantic_aliases": [
+      "monthly delivery",
+      "auto ship"
+    ],
+    "questions": [
+      "How does subscribe and save work?",
+      "Can I get this delivered every month?",
+      "auto delivery"
+    ],
+    "answer": "Subscribe & Save lets you set up automatic deliveries for everyday essentials at a 5% discount. You can choose the delivery frequency (e.g., every 1, 2, or 3 months) and cancel or skip a delivery at any time.",
+    "escalate": false
+  },
+  {
+    "id": "sub-004",
+    "category": "Subscriptions",
+    "intent": "SKIP_DELIVERY",
+    "priority": "low",
+    "tags": [
+      "skip delivery",
+      "pause subscription",
+      "delay order"
+    ],
+    "semantic_aliases": [
+      "pause auto ship",
+      "skip a month"
+    ],
+    "questions": [
+      "Can I skip a month for my subscription?",
+      "How do I pause my recurring order?",
+      "skip delivry"
+    ],
+    "answer": "Yes! Go to **My Account → Subscriptions**, select your active subscription, and click 'Skip Next Delivery'. You won't be charged for that cycle.",
+    "escalate": false
+  },
+  {
+    "id": "sub-005",
+    "category": "Subscriptions",
+    "intent": "NEWSLETTER",
+    "priority": "low",
+    "tags": [
+      "newsletter",
+      "unsubscribe email",
+      "stop emails"
+    ],
+    "semantic_aliases": [
+      "stop sending emails",
+      "remove from mailing list"
+    ],
+    "questions": [
+      "How do I unsubscribe from emails?",
+      "Stop sending me newsletters",
+      "unsbscribe"
+    ],
+    "answer": "You can unsubscribe from marketing emails by clicking the 'Unsubscribe' link at the bottom of any promotional email, or by updating your preferences in **My Account → Communications**.",
+    "escalate": false
+  },
+  {
+    "id": "wallet-001",
+    "category": "Wallet",
+    "intent": "STORE_CREDIT_BALANCE",
+    "priority": "low",
+    "tags": [
+      "store credit",
+      "wallet balance",
+      "check balance"
+    ],
+    "semantic_aliases": [
+      "how much credit do I have",
+      "wallet money"
+    ],
+    "questions": [
+      "How do I check my store credit?",
+      "Where is my wallet balance?",
+      "check balnce"
+    ],
+    "answer": "You can view your store credit balance by logging in and navigating to **My Account → ShopEase Wallet**. The balance will also automatically appear as a payment option during checkout.",
+    "escalate": false
+  },
+  {
+    "id": "wallet-002",
+    "category": "Wallet",
+    "intent": "CREDIT_EXPIRATION",
+    "priority": "low",
+    "tags": [
+      "credit expire",
+      "wallet expiry",
+      "validity"
+    ],
+    "semantic_aliases": [
+      "does store credit expire",
+      "how long is credit good for"
+    ],
+    "questions": [
+      "Does store credit expire?",
+      "How long do I have to use my wallet balance?",
+      "credit expry"
+    ],
+    "answer": "Store credit issued from refunds never expires. However, promotional wallet cashback or referral bonuses usually expire within 90 days. Check the exact expiry dates in your Wallet history.",
+    "escalate": false
+  },
+  {
+    "id": "wallet-003",
+    "category": "Wallet",
+    "intent": "BANK_TRANSFER",
+    "priority": "medium",
+    "tags": [
+      "bank transfer",
+      "withdraw to bank",
+      "cash out"
+    ],
+    "semantic_aliases": [
+      "transfer credit to bank",
+      "get money out of wallet"
+    ],
+    "questions": [
+      "Can I transfer my store credit to my bank account?",
+      "How do I withdraw wallet money?",
+      "cash out wallet"
+    ],
+    "answer": "Refunds issued to your ShopEase Wallet can be transferred to your original bank account within 30 days. However, promotional cashback and referral bonuses cannot be withdrawn and must be spent on the platform.",
+    "escalate": false
+  },
+  {
+    "id": "wallet-004",
+    "category": "Wallet",
+    "intent": "REFERRAL_PROGRAM",
+    "priority": "low",
+    "tags": [
+      "referral",
+      "invite friend",
+      "refer and earn"
+    ],
+    "semantic_aliases": [
+      "referral bonus",
+      "share code",
+      "affiliate"
+    ],
+    "questions": [
+      "How does the refer and earn program work?",
+      "How do I get my referral bonus?",
+      "refral code"
+    ],
+    "answer": "Share your unique referral code from **My Account → Refer & Earn**. Your friend gets ₹100 off their first order, and you receive ₹150 in your Wallet once their order is delivered.",
+    "escalate": false
+  },
+  {
+    "id": "wallet-005",
+    "category": "Wallet",
+    "intent": "LOYALTY_POINTS",
+    "priority": "low",
+    "tags": [
+      "loyalty points",
+      "rewards",
+      "earn points"
+    ],
+    "semantic_aliases": [
+      "reward program",
+      "redeem points"
+    ],
+    "questions": [
+      "How do I earn reward points?",
+      "What are loyalty points worth?",
+      "loyalty program"
+    ],
+    "answer": "You earn 1 point for every ₹10 spent. Points are credited 3 days after delivery. At checkout, you can redeem them (100 points = ₹1) to pay for up to 20% of your order value.",
+    "escalate": false
+  },
+  {
+    "id": "gen-001",
+    "category": "General",
+    "intent": "CONTACT_SUPPORT",
+    "priority": "medium",
+    "tags": [
+      "contact",
+      "customer care",
+      "helpline",
+      "email support"
+    ],
+    "semantic_aliases": [
+      "phone number",
+      "call you",
+      "support email"
+    ],
+    "questions": [
+      "What is your customer care number?",
+      "How do I contact support?",
+      "contct support",
+      "Can I call you?"
+    ],
+    "answer": "You can reach our human support team via email at **support@shopease.com** or call our toll-free helpline at **1800-123-4567** (Mon-Sat, 9 AM - 6 PM).",
+    "escalate": false
+  },
+  {
+    "id": "gen-002",
+    "category": "General",
+    "intent": "STORE_LOCATOR",
+    "priority": "low",
+    "tags": [
+      "store locator",
+      "physical store",
+      "location"
+    ],
+    "semantic_aliases": [
+      "offline store",
+      "shop near me",
+      "retail store"
+    ],
+    "questions": [
+      "Do you have physical stores?",
+      "Where is your store located?",
+      "find store"
+    ],
+    "answer": "ShopEase is primarily an online platform, but we do have flagship experience centers in Mumbai, Delhi, and Bangalore. You can find the exact addresses on our 'Store Locator' page.",
+    "escalate": false
+  },
+  {
+    "id": "gen-003",
+    "category": "General",
+    "intent": "FEEDBACK",
+    "priority": "low",
+    "tags": [
+      "feedback",
+      "suggestion",
+      "compliment"
+    ],
+    "semantic_aliases": [
+      "leave a review",
+      "suggest an improvement"
+    ],
+    "questions": [
+      "How can I leave feedback?",
+      "I have a suggestion for your app",
+      "leave review"
+    ],
+    "answer": "We'd love to hear from you! You can submit feedback or suggestions via the 'Send Feedback' form in the Help Center, or email us directly at feedback@shopease.com.",
+    "escalate": false
+  },
+  {
+    "id": "gen-004",
+    "category": "General",
+    "intent": "JOB_CAREERS",
+    "priority": "low",
+    "tags": [
+      "jobs",
+      "careers",
+      "hiring"
+    ],
+    "semantic_aliases": [
+      "work for you",
+      "vacancies"
+    ],
+    "questions": [
+      "Are you hiring?",
+      "How can I apply for a job?",
+      "careers"
+    ],
+    "answer": "We're always looking for great talent! Please visit our Careers page at careers.shopease.com to view open positions and submit your resume.",
+    "escalate": false
+  }
+]
