@@ -1,3 +1,8 @@
+## 📸 Application Preview
+
+### Aria Support Chatbot UI
+
+![Aria Support Chatbot Preview](./assets/ui.png)
 # Aria Ecommerce RAG Chatbot
 
 Aria is a production-oriented Retrieval-Augmented Generation chatbot for ecommerce customer support. It answers ShopEase support questions using a JSON FAQ knowledge base, MiniLM dense embeddings, ChromaDB vector search, LangChain prompt orchestration, FastAPI APIs, conversation memory, escalation rules, and hallucination-safe retrieval gates.
